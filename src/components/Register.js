@@ -7,7 +7,7 @@ function Register() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await axios.post('http://localhost:5000/register', { username, password });
+    await axios.post('https://class-be-2-bc9r.onrender.com/register', { username, password });
     alert('User registered successfully');
   };
 
